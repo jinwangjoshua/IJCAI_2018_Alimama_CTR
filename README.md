@@ -26,7 +26,6 @@ This is a record of a CTR competition, [Advertising Algorithm Competition](https
 - numpy 1.13
 - TPOT 0.9.3 (Auto ML)
 - hyperopt 0.1 (Automatic hyperparameter optimization)
-- mlxtend 0.12.0(Model ensemble)
 - feature-selector
 
 Team: Datababa
