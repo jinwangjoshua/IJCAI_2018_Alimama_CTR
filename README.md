@@ -27,6 +27,7 @@ This is a record of a CTR competition, [Advertising Algorithm Competition](https
 - TPOT 0.9.3 (Auto ML)
 - hyperopt 0.1 (Automatic hyperparameter optimization)
 - mlxtend 0.12.0(Model ensemble)
+- feature-selector
 
 Team: Datababa
 Member: Xiaoshuai Jin(me), Lucas Xu,  Akasi Shang
