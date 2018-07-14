@@ -17,10 +17,16 @@ This is a record of a CTR competition, [Advertising Algorithm Competition](https
 ### 6. After-competition Summary 
 666
 
-### 7. Reference
+### 7. Reference and Depedencies
 666
-
-
+- Linux 16.04
+- Python3
+- Pandas 0.19
+- scikit-learn 0.19.1
+- numpy 1.13
+- TPOT 0.9.3 (Auto ML)
+- hyperopt 0.1 (Automatic hyperparameter optimization)
+- mlxtend 0.12.0(Model ensemble)
 
 Team: Datababa
 Member: Xiaoshuai Jin(me), Lucas Xu,  Akasi Shang
