@@ -17,8 +17,6 @@ We tried many machine learning models, also with the help of TPOT, a AutoML tool
 
 In this scirpt, LightGBM model is applied and the pruning process is helped with hyperopt,a automatic hyperparameter optimization providing optimization algorithms like TPE searching and random searching.
 
-### 5. Summary
-
 ### 5. Model Ensemble 
 666
 
