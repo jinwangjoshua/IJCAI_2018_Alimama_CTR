@@ -1,15 +1,23 @@
 # Alimama Internation Advertising Algorithm Competition(IJCAI-2018)
-### 1. Introduction
-This is a record of a CTR competition, [Advertising Algorithm Competition](https://tianchi.aliyun.com/competition/introduction.htm?raceId=231647), host by Alimama, Alibaba in March to May 2018. The main task is to predict conversion(purchase) probability of after every serach and click. This is the first data science competition of me, and finally our team, Datababa, ranked 900-1000 out of over 5000 team candidates, reached Top 18%. In this repo, we recorded what we did in the competition, along with ideas given by other attendees after the competition (we will give clear cititions). This is the first data science competition for every of us.
+### 1. Introduction of the Project
+This is a record of a CTR competition, Alimama Internation Advertising Algorithm Competition, host by Alimama, Alibaba in March to May 2018. The scenario is happened on TAOBAO, a ecommence website, where people search some items/keywords after landing on, and they may click some and maybe finally purchase. The main task here is to predict conversion rate/probability given each scenario(customer, shopper, item, context, etc.)
 
-### 2. Data Describtion and understanding
-666
+This is a small sample of the original scripts, for further and more knowledge of my solution, you can check my github at:https://github.com/jinwangjoshua/IJCAI_2018_Alimama_CTR/blob/master/Workflow.ipynb
 
-### 3. Feature Engineering and Fearure Selection
-666
+### 2. Understanding and Cleaning
+There are five dimensions of data was given: meta data, items' data, customers' data, shoppers'data, and context data. And in the train dataset, if conversion happened is given.
+
+We build some rules to clean the original data, say duplicates records with instanceids. In this scripts, we use the cleaned data.
+
+### 3. Feature Engineering
+For better model building, we tried to find more usefel features based on our business sense. In addition to the raw features, we created extra features in five dimensions: statistic features, TopN features, time window and time difference features, interaction features and other features.
 
 ### 4. Model Training and Hyperparameter Tuning
-666
+We tried many machine learning models, also with the help of TPOT, a AutoML tool to help the model selection. And finally we find the GBDT transformers perform best.
+
+In this scirpt, LightGBM model is applied and the pruning process is helped with hyperopt,a automatic hyperparameter optimization providing optimization algorithms like TPE searching and random searching.
+
+### 5. Summary
 
 ### 5. Model Ensemble 
 666
